@@ -1,0 +1,13 @@
+#promo{
+  text-align:center;
+  padding:40px;
+  background:url(/assets/img/background.jpeg) no-repeat;
+  background-size:cover;
+}
+.navi-bar{
+  background-color:#baf1a1;
+}
+#jumb-promo{
+  background:url(/assets/img/background.jpeg) no-repeat;
+  background-size:cover;
+}

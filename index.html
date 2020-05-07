@@ -1,43 +1,104 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="shortcut icon" href="favicon.png">
-    <title>Riyaayat</title>
-
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/datatables.min.css">
-    <link rel="stylesheet" href ="css/font-awesome.mon.css">
-
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <link rel="icon" href="favicon/favicon.ico">
+  <title>Riaayat</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Proza+Libre:wght@800&family=Roboto:wght@900&display=swap" rel="stylesheet">
+  <style media="screen">
+  #jumb-promo{
+    background-image: url("img/background.jpeg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    padding:40px 40px ;
+    height:40rem;
+    margin:auto 60px;
+  }
+  #promo{
+    text-align:center;
+    height:45rem;
+  }
+  body{
+    background-image:url("img/bg.jpg");
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    font-family: 'Proza Libre', sans-serif;
+  }
+  .bg-image{
+    filter: blur(1px);
+  }
+  .navi-bar{
+    background-color:#96c659;
+    margin-right: 0px;
+  }
+  .contact-div{
+    height:5rem;
+  }
+  h1{
+    font-size: 4rem;
+  }
+  p{
+    font-size: 1.2rem;
+  }
+  .text-div {
+    background-color: transparent;
+    color:white;
+    border: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 50px;
+    text-align: center;
+    margin-left: 210px;
+    margin-top: 50px;
+  }
+  </style>
 </head>
-	<style>
-		marquee{
-      font-size: 30px;
-      font-weight: 800;
-      color: #D1D0CE;
-    }
-	</style>
 
 
-
-<body style="background: url(bg.jpg)">
-
-    <nav class="navbar navbar-light bg-light">
-
-          <a href="home.html" class="navbar-brand">
-            <img src="logo.png" width="13%" height="7%" alt="Logo">
-            </a>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="navbar-nav">
-      <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link" href="#">About</a>
-      <a class="nav-item nav-link" href="#">Contact</a>
-      <a class="nav-item nav-link" href="#">Login</a>
+<body class="text-capitalize">
+  <nav class="navbar navbar-light navbar-expand-md navi-bar" >
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+    <img src="img/logo.png" width="150" height="75" alt="">
+        </a>
+      <!-- <a class="navbar-brand" href="#">Riaayat</a> -->
+      <button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse"
+      id="navcol-1">
+      <ul class="nav navbar-nav ml-auto">
+        <li class="nav-item" role="presentation"><a class="nav-link active" href="#">Home</a></li>
+        <li class="nav-item" role="presentation"><a class="nav-link" href="#">About Us</a></li>
+        <!-- <li class="nav-item" role="presentation"><a class="nav-link" href="#">Contact Us</a></li> -->
+        <li class="nav-item" role="presentation"><a class="nav-link" href="#">Work with us</a></li>
+        <li class="nav-item" role="presentation"><a class="nav-link" href="#">Login</a></li>
+      </ul>
     </div>
-            </nav>
-          </nav>
-          <marquee>One for All  &nbsp; &nbsp; &nbsp;   All for One  &nbsp;&nbsp;   ||| &nbsp;&nbsp;    Aapke liye  &nbsp; &nbsp; &nbsp;  Aapke sath    </marquee>
+  </div>
+</nav>
+<div class="border-light " id="promo" >
+  <div class="jumbotron jumbotron-fluid text-center border rounded shadow bg-image" id="jumb-promo">
+  </div>
+  <div class="text-div">
+    <h1>Riaayat</h1>
+    <p> A place to connect people with people and spread kindness around each other! </p>
+    <p><a class="btn btn-success" role="button" style="height: 40px;margin: 50px;">Login Here</a>
+      <a class="btn btn-success" role="button" style="height: 40px;margin: 50px;">Register</a></p>
+
+    </div>
+  </div>
+  <div class="contact-div bg-dark">
+    this i contact div
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
